@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html,
+body,
+head,
+footer {
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5f6f;
+}
+
+.navbar {
+    background-color: #342826 !important;
+    font-size: 14px;
+}
+
+.navbar li a {
+    color: white !important;
+    margin-right: 10px;
+}
+
+.navbar li a:hover {
+    color: #E3374E !important;
+    transition: 0.2s;
+}
+
+.btn-danger {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    background-color: #E3374E !important;
+    transition-delay: 2s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.container-fluid-header {
+    padding: 0px;
+    background-color: #342826;
+}
+
+.container-fluid-header2 {
+    text-align: center;
+    color: white;
+    background-image: url('/images/About-us/About_Us_Page_Header_Image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.container__header2 h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.container__header2 p {
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.container__under-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.container-fluid-key {
+    background-image: url('/images/About-us/background-grey.png');
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row__display1 img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.row__display1 {
+    margin-top: 30px;
+}
+
+.container-fluid-display1 {
+    padding-bottom: 50px;
+}
+
+.container-fluid-news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row__news a:hover {
+    text-decoration: none;
+}
+
+.btn-news {
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.container-fluid-form {
+    background-color: #E3374E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.row__form p {
+    font-size: 12px;
+}
+
+.row__form a {
+    color: white;
+}
+
+.footer-size {
+    padding-top: 50px;
+    background-color: rgba(43, 41, 41, 0.973);
+}
+
+.footer-size ul {
+    padding-inline-start: 0px;
+}
+
+.footer-size li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: #E3374E;
+}
+
+.term {
+    text-decoration: none;
+    color: white;
+}
+
+.term:hover {
+    text-decoration: none;
+    color: white
+}
+
+.origin {
+    text-align: right;
+    color: white;
+}
+
+.term {
+    font-size: 15px;
+}
+
+.origin {
+    font-size: 15px;
+}
+
+.social h5 {
+    font-size: 15px;
+    color: white;
+}
+
+.social p {
+    font-size: 12px;
+    color: white;
+}
+
+.social {
+    padding-bottom: 20px;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+.fa-map-marker-alt {
+    color: #f45454;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+    font-size: 2rem;
+    padding-right: 10px;
+}

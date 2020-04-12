@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html,
+body,
+head,
+footer {
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5f6f;
+}
+
+.navbar {
+    background-color: #342826 !important;
+    font-size: 14px;
+}
+
+.navbar li a {
+    color: white !important;
+    margin-right: 10px;
+}
+
+.navbar li a:hover {
+    color: #E3374E !important;
+    transition: 0.2s;
+}
+
+.btn-danger {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    background-color: #E3374E !important;
+    transition-delay: 2s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.container-fluid-header {
+    padding: 0px;
+    background-color: #342826;
+}
+
+.container-fluid-header2 {
+    text-align: center;
+    color: white;
+    background-image: url('/images/Healthcare/website-industry-healthcare-banner-hero.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.container__header2 h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 44px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.container-fluid-under-header {
+    background-color: #f1f1f3;
+}
+
+.row__under-header p {
+    padding-left: 8rem;
+}
+
+.row__under-header img {
+    margin-left: 1em;
+    width: 150px;
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 3em;
+}
+
+.container-fluid-under-header2 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.row__btn {
+    margin-inline-start: 10px;
+}
+
+.row__comment img {
+    width: 150px;
+}
+
+.row__comment p {
+    font-size: 25px;
+}
+
+.row__comment {
+    padding-bottom: 5rem;
+}
+
+.container-fluid-key {
+    background-image: url('/images/Healthcare/background-grey.png');
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block h2 {
+    padding-bottom: 20px;
+}
+
+.block-row img {
+    width: 125px;
+    height: 125px;
+}
+
+.block-row {
+    margin-bottom: 10px;
+}
+
+.container__news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row__news a {
+    text-decoration: none;
+    color: black;
+}
+
+.row__news img {
+    width: 100%;
+    max-height: 265px;
+}
+
+.display__news {
+    border-radius: 6px;
+    box-shadow: 0px 7px 32px -7px rgba(0, 0, 0, 0.15);
+}
+
+.display__news p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.display__news h3 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.display__news h4 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.display__news h4 {
+    margin-top: 20px;
+}
+
+.display__news:hover {
+    box-shadow: 3px 7px 12px 3px rgb(230, 224, 224);
+    transition: 0.2s;
+}
+
+.btn-news {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.container-fluid-link {
+    background-color: #e3dee4;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+
+.row__link a {
+    color: #444444;
+    text-decoration: none;
+}
+
+.row__link a:hover {
+    color: #E3374E;
+    text-decoration: none;
+}
+
+.row__link button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+
+.row__link button:hover {
+    background-color: transparent;
+    border: none;
+    color: #E3374E;
+}
+
+.container-fluid-form {
+    background-color: #E3374E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.row__form p {
+    font-size: 12px;
+}
+
+.row__form a {
+    color: white;
+}
+
+.footer-size {
+    padding-top: 50px;
+    background-color: rgba(43, 41, 41, 0.973);
+}
+
+.footer-size ul {
+    padding-inline-start: 0px;
+}
+
+.footer-size li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: #E3374E;
+}
+
+.term {
+    text-decoration: none;
+    color: white;
+}
+
+.term:hover {
+    text-decoration: none;
+    color: white
+}
+
+.origin {
+    text-align: right;
+    color: white;
+}
+
+.term {
+    font-size: 15px;
+}
+
+.origin {
+    font-size: 15px;
+}
+
+.social h5 {
+    font-size: 15px;
+    color: white;
+}
+
+.social p {
+    font-size: 12px;
+    color: white;
+}
+
+.social {
+    padding-bottom: 20px;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+.fa-map-marker-alt {
+    color: #f45454;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+    font-size: 2rem;
+    padding-right: 10px;
+}

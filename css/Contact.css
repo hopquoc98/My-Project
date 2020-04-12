@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html,
+body,
+head,
+footer {
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5f6f;
+}
+
+.navbar {
+    background-color: #342826 !important;
+    font-size: 14px;
+}
+
+.container-fluid-header {
+    background-color: #342826;
+}
+
+.container__under-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.row__under-header form {
+    background-color: #fff;
+    box-shadow: 0px 7px 32px -7px rgba(0, 0, 0, 0.2);
+    padding: 8px 23px 25px 25px;
+}
+
+.row__under-header form:hover {
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 5px 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.2s ease-in-out;
+}
+
+.row__under-header a {
+    color: #E3374E;
+}
+
+.row__under-header a:hover {
+    text-decoration: none;
+}
+
+.form {
+    font-size: 12px;
+}
+
+.form-group {
+    margin-bottom: 0rem;
+}
+
+.right__under-header {
+    padding-left: 70px;
+}
+
+.right__under-header i {
+    padding-right: 10px;
+    color: #E3374E;
+}
+
+.container__under-header hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container__display1 a {
+    color: #E3374E;
+}
+
+.container__display1 a:hover {
+    text-decoration: none;
+}
+
+.container__display1 {
+    padding-bottom: 50px;
+}
+
+.footer-size {
+    padding-top: 50px;
+    background-color: rgba(43, 41, 41, 0.973);
+}
+
+.footer-size ul {
+    padding-inline-start: 0px;
+}
+
+.footer-size li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: #E3374E;
+}
+
+.term {
+    text-decoration: none;
+    color: white;
+}
+
+.term:hover {
+    text-decoration: none;
+    color: white
+}
+
+.origin {
+    text-align: right;
+    color: white;
+}
+
+.term {
+    font-size: 15px;
+}
+
+.origin {
+    font-size: 15px;
+}
+
+.social h5 {
+    font-size: 15px;
+    color: white;
+}
+
+.social p {
+    font-size: 12px;
+    color: white;
+}
+
+.social {
+    padding-bottom: 20px;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+.fa-map-marker-alt {
+    color: #f45454;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+    font-size: 2rem;
+    padding-right: 10px;
+}

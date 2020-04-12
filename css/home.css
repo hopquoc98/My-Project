@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html,
+body,
+head,
+footer {
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5f6f;
+}
+
+.navbar {
+    background-color: #342826 !important;
+    font-size: 14px;
+}
+
+.navbar-toggle-icon {
+    background-color: white !important;
+}
+
+.navbar li a {
+    color: white !important;
+    margin-right: 10px;
+}
+
+.navbar li a:hover {
+    color: #e3374e !important;
+    transition: 0.2s;
+}
+
+.btn-danger {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    background-color: #e3374e !important;
+    transition-delay: 2s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.container-fluid-header {
+    padding: 0px;
+    background-color: #342826;
+}
+
+.container-fluid-under-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-fluid-under-header a {
+    color: #e3374e;
+}
+
+.container-fluid-under-header a:hover {
+    text-decoration: none;
+}
+
+.header-image {
+    height: 245px;
+    width: 245px;
+    margin: 40px;
+}
+
+.container-fluid-header2 {
+    padding-top: 50px;
+    background-image: url('/images/home/navbar-header/homepage.png');
+    background-size: 100%;
+    padding-bottom: 50px;
+    background-position: top;
+}
+
+.block {
+    background-color: #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block img {
+    margin-top: 20px;
+}
+
+.block h2 {
+    padding-bottom: 20px;
+}
+
+.block p {
+    color: #5a5f6f;
+}
+
+.fa-location-arrow,
+.fa-search-location,
+.fa-chart-line,
+.fa-building,
+.fa-network-wired,
+.fa-share-alt {
+    font-size: 3em;
+    color: #e3374e;
+    margin: 2rem;
+    padding-bottom: 10px;
+}
+
+.social {
+    padding-bottom: 20px;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+.container-fluid-hs-form {
+    background-color: #e3374e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-news {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.news:hover {
+    text-decoration: none;
+}
+
+.blogs:hover {
+    text-decoration: none;
+}
+
+.container-fluid-feature {
+    background-color: #dcdcdc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-size {
+    padding-top: 50px;
+    background-color: rgba(43, 41, 41, 0.973);
+}
+
+.footer-size ul {
+    padding-inline-start: 0px;
+}
+
+.footer-size li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: #e3374e;
+}
+
+.term {
+    text-decoration: none;
+    color: white;
+}
+
+.term:hover {
+    text-decoration: none;
+    color: white
+}
+
+.origin {
+    text-align: right;
+    color: white;
+}
+
+.term {
+    font-size: 15px;
+}
+
+.origin {
+    font-size: 15px;
+}
+
+.social h5 {
+    font-size: 15px;
+    color: white;
+}
+
+.social p {
+    font-size: 12px;
+    color: white;
+}
+
+.fa-map-marker-alt {
+    color: #f45454;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+    font-size: 2rem;
+    padding-right: 10px;
+}
+
+.leverage {
+    padding-top: 30px;
+    padđing-bottom: 30px;
+}
+
+.container-fluid-under-header h2 {
+    padding-bottom: 20px;
+}
+
+.block a {
+    text-decoration: none;
+    color: black;
+}
+
+.block-row:hover {
+    box-shadow: 0px 0px 20px 20px rgb(204, 204, 204);
+    transition: 0.2s;
+}
+
+.block-row img {
+    width: 125px;
+    height: 125px;
+}
+
+.block-row {
+    margin-bottom: 10px;
+}
+
+.container-news img {
+    width: 217px;
+    height: 122px;
+    padding-top: 10px;
+}
+
+.form-policy {
+    font-size: 12px;
+}
+
+.btn-light {
+    border-radius: 10px;
+}
+
+.form-policy-link {
+    color: white;
+    text-decoration: white;
+}
+
+.form-policy-link:hover {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.container-fluid-feature img {
+    padding-inline-start: 30px;
+}
+
+.container-fluid-info {
+    background-color: #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid-info a {
+    color: #e3374e;
+}
+
+.container-fluid-info a:hover {
+    text-decoration: none;
+}

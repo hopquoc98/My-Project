@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+html,
+body,
+head,
+footer {
+    font-family: 'Quicksand', sans-serif;
+    color: #5a5f6f;
+}
+
+.navbar {
+    background-color: #342826 !important;
+    font-size: 14px;
+}
+
+.navbar li a {
+    color: white !important;
+    margin-right: 10px;
+}
+
+.navbar li a:hover {
+    color: #e3374e !important;
+    transition: 0.2s;
+}
+
+.btn-danger {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    background-color: #e3374e !important;
+    transition-delay: 2s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.container-fluid-header {
+    padding: 0px;
+    background-color: #342826;
+}
+
+.container-fluid-header2 {
+    background-image: url('/images/Indoor-Maping/website-hero-indoormapping.jpg');
+    background-size: cover;
+    background-repeat: none;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.container-header2 h1 {
+    padding-top: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.container-header2 p {
+    padding-bottom: 70px;
+    color: white;
+    text-shadow: 2px 2px 4px #2c2b2b;
+}
+
+.container-fluid-under-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-link:hover {
+    text-decoration: none;
+}
+
+.container-fluid-maps-support {
+    padding-bottom: 30px;
+}
+
+.maps__support {
+    margin: auto;
+}
+
+.container-fluid-key {
+    background-image: url('/images/Indoor-Maping/background-grey.png');
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block a {
+    text-decoration: none;
+    color: black;
+}
+
+.block-row img {
+    width: 125px;
+    height: 125px;
+}
+
+.block-row {
+    margin-bottom: 10px;
+}
+
+.container-fluid-display1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-fluid-form {
+    background-color: #e3374e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.row__form p {
+    font-size: 12px;
+}
+
+.row__form a {
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.footer-size {
+    padding-top: 50px;
+    background-color: rgba(43, 41, 41, 0.973);
+}
+
+.footer-size ul {
+    padding-inline-start: 0px;
+}
+
+.footer-size li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 1rem;
+}
+
+.list-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: #e3374e;
+}
+
+.term {
+    text-decoration: none;
+    color: white;
+}
+
+.term:hover {
+    text-decoration: none;
+    color: white
+}
+
+.origin {
+    text-align: right;
+    color: white;
+}
+
+.term {
+    font-size: 15px;
+}
+
+.origin {
+    font-size: 15px;
+}
+
+.social h5 {
+    font-size: 15px;
+    color: white;
+}
+
+.social p {
+    font-size: 12px;
+    color: white;
+}
+
+.social {
+    padding-bottom: 20px;
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+.fa-map-marker-alt {
+    color: #f45454;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+    color: white;
+    font-size: 2rem;
+    padding-right: 10px;
+}
